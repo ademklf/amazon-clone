@@ -3,7 +3,7 @@ import { Link, useHistory } from "react-router-dom";
 import CheckoutProduct from "./CheckoutProduct";
 import "./Payment.css";
 import { useStateValue } from "./StateProvider";
-import { CardElement, useStripe, useElements } from "@stripe/react-stripe-js";
+import { useStripe, useElements } from "@stripe/react-stripe-js";
 import CurrencyFormat from "react-currency-format";
 import { getBasketTotal } from "./reducer";
 import axios from "./axios";
@@ -116,7 +116,7 @@ function Payment() {
             {/*Stripe magic will go*/}
 
             <form onSubmit={handleSubmit}>
-              <CardElement onChange={handleChange} />
+              {/* <CardElement onChange={handleChange} /> */}
 
               <div className="payment__priceContainer">
                 <CurrencyFormat
