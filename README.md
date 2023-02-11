@@ -1,7 +1,11 @@
 #  https://ademklf.github.io/amazon-clone/
 
 
-https://user-images.githubusercontent.com/85417186/218278926-4195741b-4ace-497c-9766-a56d4c7db5c4.mp4
+
+
+https://user-images.githubusercontent.com/85417186/218279070-1f7bbe1b-0f42-437d-8443-19460d4bd1b7.mp4
+
+
 
 
 # Getting Started with Create React App
